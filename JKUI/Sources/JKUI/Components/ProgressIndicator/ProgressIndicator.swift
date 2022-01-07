@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public struct JJUIProgressIndicator: View {
+public struct ProgressIndicator: View {
     
     private let configuration: ProgressIndicatorConfiguration
     
@@ -58,6 +58,6 @@ struct JJUIProgressIndicator_Previews: PreviewProvider {
         let themeFont = ThemeFont()
         let theme = ThemeConfiguration(color: themeColor, font: themeFont)
         ThemeManager.configure(theme: theme)
-        return JJUIProgressIndicator(configuration: ProgressIndicatorConfiguration(size: .large, color: .brown))
+        return ProgressIndicator(configuration: ProgressIndicatorConfiguration(size: .large, color: .brown))
     }
 }

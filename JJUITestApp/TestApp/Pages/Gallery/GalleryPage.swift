@@ -17,6 +17,6 @@ struct GalleryPage: View {
     ]
     
     var body: some View {
-        JJUIGallery(images: images)
+        Gallery(images: images)
     }
 }

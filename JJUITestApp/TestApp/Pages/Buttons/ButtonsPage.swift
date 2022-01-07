@@ -30,7 +30,7 @@ struct ButtonsPage: View {
                 
                 HStack(spacing: 5) {
                     Spacer()
-                    JJUIButton(
+                    MainButton(
                         text: "Primary",
                         icon: nil,
                         configuration: config,
@@ -39,7 +39,7 @@ struct ButtonsPage: View {
                     
                     Spacer()
                     
-                    JJUIButton(
+                    MainButton(
                         text: "Secondary",
                         icon: nil,
                         configuration: .init(size: .large, type: .secondary),
@@ -48,7 +48,7 @@ struct ButtonsPage: View {
                     
                     Spacer()
 
-                    JJUIButton(
+                    MainButton(
                         text: "Disabled",
                         icon: nil,
                         configuration: .init(size: .large, type: .secondary),
@@ -59,14 +59,14 @@ struct ButtonsPage: View {
                 }
                 
                 HStack(spacing: 5) {
-                    JJUIButton(
+                    MainButton(
                         text: "Icon Left",
                         icon: AppButtonIcon(position: .left, name: "star.fill"),
                         configuration: .init(size: .large, type: .primary),
                         state: $buttonState
                     ) { }
                     
-                    JJUIButton(
+                    MainButton(
                         text: "Icon Right",
                         icon: AppButtonIcon(position: .right, name: "star.fill"),
                         configuration: .init(size: .large, type: .secondary),
@@ -76,21 +76,21 @@ struct ButtonsPage: View {
                 
                 HStack(spacing: 5) {
                     Spacer()
-                    JJUIButton(
+                    MainButton(
                         text: "Primary",
                         icon: nil,
                         configuration: .init(size: .medium, type: .primary),
                         state: $buttonState
                     ) {}
                     
-                    JJUIButton(
+                    MainButton(
                         text: "Secondary",
                         icon: nil,
                         configuration: .init(size: .medium, type: .secondary),
                         state: $buttonState
                     ) {}
                     
-                    JJUIButton(
+                    MainButton(
                         text: "Disabled",
                         icon: nil,
                         configuration: .init(size: .medium, type: .secondary),
@@ -102,21 +102,21 @@ struct ButtonsPage: View {
                 
                 HStack(spacing: 20) {
                     Spacer()
-                    JJUIButton(
+                    MainButton(
                         text: "Primary",
                         icon: nil,
                         configuration: .init(size: .small, type: .primary),
                         state: $buttonState
                     ) {}
                     
-                    JJUIButton(
+                    MainButton(
                         text: "Secondary",
                         icon: nil,
                         configuration: .init(size: .small, type: .secondary),
                         state: $buttonState
                     ) {}
                     
-                    JJUIButton(
+                    MainButton(
                         text: "Disabled",
                         icon: nil,
                         configuration: .init(size: .small, type: .secondary),
@@ -126,21 +126,21 @@ struct ButtonsPage: View {
                     Spacer()
                 }
                 
-                JJUIButton(
+                MainButton(
                     text: "Primary",
                     icon: nil,
                     configuration: .init(size: .fullWidth, type: .primary),
                     state: $buttonState
                 ) {}
                 
-                JJUIButton(
+                MainButton(
                     text: "Secondary",
                     icon: nil,
                     configuration: .init(size: .fullWidth, type: .secondary),
                     state: $buttonState
                 ) {}
                 
-                JJUIButton(
+                MainButton(
                     text: "Disabled",
                     icon: nil,
                     configuration: .init(size: .fullWidth, type: .secondary),

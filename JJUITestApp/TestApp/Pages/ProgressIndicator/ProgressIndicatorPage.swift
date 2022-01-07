@@ -14,35 +14,35 @@ struct ProgressIndicatorPage: View {
             
             HStack(spacing: 20) {
                 Text("Extra Large")
-                JJUIProgressIndicator(
+                ProgressIndicator(
                     configuration: ProgressIndicatorConfiguration(size: .xLarge, color: .blue)
                 )
             }
             
             HStack(spacing: 20) {
                 Text("Large")
-                JJUIProgressIndicator(
+                ProgressIndicator(
                     configuration: ProgressIndicatorConfiguration(size: .large, color: .blue)
                 )
             }
             
             HStack(spacing: 20) {
                 Text("Medium")
-                JJUIProgressIndicator(
+                ProgressIndicator(
                     configuration: ProgressIndicatorConfiguration(size: .medium, color: .blue)
                 )
             }
             
             HStack(spacing: 20) {
                 Text("Small")
-                JJUIProgressIndicator(
+                ProgressIndicator(
                     configuration: ProgressIndicatorConfiguration(size: .small, color: .blue)
                 )
             }
             
             HStack(spacing: 20) {
                 Text("Extra Small")
-                JJUIProgressIndicator(
+                ProgressIndicator(
                     configuration: ProgressIndicatorConfiguration(size: .small, color: .blue)
                 )
             }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 /// This UIComponents represent a button with standard look and feel.
-public struct JJUIButton: View {
+public struct MainButton: View {
     
     public let text: String
     public let icon: AppButtonIcon?
@@ -45,7 +45,7 @@ public struct JJUIButton: View {
                 }
                 
                 ZStack {
-                    JJUIProgressIndicator(configuration: configuration.progressIndicatorConfiguration)
+                    ProgressIndicator(configuration: configuration.progressIndicatorConfiguration)
                         .isHidden(state != .loading, remove: true)
                         
                     Text(text)

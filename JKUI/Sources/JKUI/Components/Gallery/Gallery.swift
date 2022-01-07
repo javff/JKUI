@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public struct JJUIGallery: View {
+public struct Gallery: View {
 
     public let images: [String]
     

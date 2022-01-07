@@ -22,7 +22,7 @@ struct ContentView: View {
                 NavigationRoute(navigator: navigator)
                 
                 ForEach(pages, id: \.self) { (component) in
-                    JJUIButton(
+                    MainButton(
                         text: component.name,
                         configuration: ButtonConfiguration(
                             size: .fullWidth,
