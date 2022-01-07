@@ -43,7 +43,7 @@ struct JJUITestAppApp: App {
 
 ### MainButton
 
-This UIComponents represent a button with standard look and feel. [Full Description how to use](https://github.com/javff/ProductPage/wiki/JJUIButton)
+This UIComponents represent a button with standard look and feel. [Full Description how to use](https://github.com/javff/JKUI/wiki/MainButton)
 
 <img src="https://user-images.githubusercontent.com/18092648/147785806-84e09eff-954e-4134-98aa-bb7cc88b1865.png" width="200" height="400" />
 
