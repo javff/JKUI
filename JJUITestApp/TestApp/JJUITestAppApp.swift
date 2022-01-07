@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import JJUI
+import JKUI
 
 @main
 struct JJUITestAppApp: App {

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import JJUI
+import JKUI
 
 struct ButtonsPage: View {
     var config = ButtonConfiguration(size: .large, type: .primary)

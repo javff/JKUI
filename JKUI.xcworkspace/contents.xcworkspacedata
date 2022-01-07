@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:JJUITestApp/JJUITestApp.xcodeproj">
+      location = "group:/Users/javff/Desktop/JKUI/JJUITestApp/TestApp.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:JJUI">
+      location = "group:JJUITestApp/../JKUI">
    </FileRef>
 </Workspace>

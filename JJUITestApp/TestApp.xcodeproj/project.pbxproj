@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FE648B02788D95300B67BE7 /* JKUI in Frameworks */ = {isa = PBXBuildFile; productRef = 8FE648AF2788D95300B67BE7 /* JKUI */; };
 		E2B49097277BAA3300FD8AAD /* JJUITestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B49096277BAA3300FD8AAD /* JJUITestAppApp.swift */; };
 		E2B49099277BAA3300FD8AAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B49098277BAA3300FD8AAD /* ContentView.swift */; };
 		E2B4909B277BAA3500FD8AAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B4909A277BAA3500FD8AAD /* Assets.xcassets */; };
 		E2B4909E277BAA3500FD8AAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B4909D277BAA3500FD8AAD /* Preview Assets.xcassets */; };
-		E2B490A6277BAA5A00FD8AAD /* JJUI in Frameworks */ = {isa = PBXBuildFile; productRef = E2B490A5277BAA5A00FD8AAD /* JJUI */; };
 		E2B490A9277BAB0000FD8AAD /* ButtonsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B490A8277BAB0000FD8AAD /* ButtonsPage.swift */; };
 		E2B490AB277BAB2400FD8AAD /* ProgressIndicatorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B490AA277BAB2400FD8AAD /* ProgressIndicatorPage.swift */; };
 		E2B490AE277BAD0C00FD8AAD /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B490AD277BAD0C00FD8AAD /* Components.swift */; };
@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E2B49093277BAA3300FD8AAD /* JJUITestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJUITestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B49093277BAA3300FD8AAD /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B49096277BAA3300FD8AAD /* JJUITestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJUITestAppApp.swift; sourceTree = "<group>"; };
 		E2B49098277BAA3300FD8AAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E2B4909A277BAA3500FD8AAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2B490A6277BAA5A00FD8AAD /* JJUI in Frameworks */,
+				8FE648B02788D95300B67BE7 /* JKUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 		E2B4908A277BAA3300FD8AAD = {
 			isa = PBXGroup;
 			children = (
-				E2B49095277BAA3300FD8AAD /* JJUITestApp */,
+				E2B49095277BAA3300FD8AAD /* TestApp */,
 				E2B49094277BAA3300FD8AAD /* Products */,
 				E2B490A4277BAA5400FD8AAD /* Frameworks */,
 			);
@@ -68,12 +68,12 @@
 		E2B49094277BAA3300FD8AAD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E2B49093277BAA3300FD8AAD /* JJUITestApp.app */,
+				E2B49093277BAA3300FD8AAD /* TestApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E2B49095277BAA3300FD8AAD /* JJUITestApp */ = {
+		E2B49095277BAA3300FD8AAD /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
 				E2CBEA28277DD086002435B3 /* Router */,
@@ -84,7 +84,7 @@
 				E2B4909A277BAA3500FD8AAD /* Assets.xcassets */,
 				E2B4909C277BAA3500FD8AAD /* Preview Content */,
 			);
-			path = JJUITestApp;
+			path = TestApp;
 			sourceTree = "<group>";
 		};
 		E2B4909C277BAA3500FD8AAD /* Preview Content */ = {
@@ -153,9 +153,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E2B49092277BAA3300FD8AAD /* JJUITestApp */ = {
+		E2B49092277BAA3300FD8AAD /* TestApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2B490A1277BAA3500FD8AAD /* Build configuration list for PBXNativeTarget "JJUITestApp" */;
+			buildConfigurationList = E2B490A1277BAA3500FD8AAD /* Build configuration list for PBXNativeTarget "TestApp" */;
 			buildPhases = (
 				E2B4908F277BAA3300FD8AAD /* Sources */,
 				E2B49090277BAA3300FD8AAD /* Frameworks */,
@@ -165,12 +165,12 @@
 			);
 			dependencies = (
 			);
-			name = JJUITestApp;
+			name = TestApp;
 			packageProductDependencies = (
-				E2B490A5277BAA5A00FD8AAD /* JJUI */,
+				8FE648AF2788D95300B67BE7 /* JKUI */,
 			);
 			productName = JJUITestApp;
-			productReference = E2B49093277BAA3300FD8AAD /* JJUITestApp.app */;
+			productReference = E2B49093277BAA3300FD8AAD /* TestApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -188,7 +188,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E2B4908E277BAA3300FD8AAD /* Build configuration list for PBXProject "JJUITestApp" */;
+			buildConfigurationList = E2B4908E277BAA3300FD8AAD /* Build configuration list for PBXProject "TestApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -201,7 +201,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E2B49092277BAA3300FD8AAD /* JJUITestApp */,
+				E2B49092277BAA3300FD8AAD /* TestApp */,
 			);
 		};
 /* End PBXProject section */
@@ -365,7 +365,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"JJUITestApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TestApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 6J2WZFVZS5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -395,7 +395,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"JJUITestApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TestApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 6J2WZFVZS5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -421,7 +421,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E2B4908E277BAA3300FD8AAD /* Build configuration list for PBXProject "JJUITestApp" */ = {
+		E2B4908E277BAA3300FD8AAD /* Build configuration list for PBXProject "TestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2B4909F277BAA3500FD8AAD /* Debug */,
@@ -430,7 +430,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2B490A1277BAA3500FD8AAD /* Build configuration list for PBXNativeTarget "JJUITestApp" */ = {
+		E2B490A1277BAA3500FD8AAD /* Build configuration list for PBXNativeTarget "TestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2B490A2277BAA3500FD8AAD /* Debug */,
@@ -442,9 +442,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E2B490A5277BAA5A00FD8AAD /* JJUI */ = {
+		8FE648AF2788D95300B67BE7 /* JKUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = JJUI;
+			productName = JKUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
