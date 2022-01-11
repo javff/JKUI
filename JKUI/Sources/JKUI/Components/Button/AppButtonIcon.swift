@@ -5,9 +5,6 @@
 //  Created by Juan Andres Vasquez Ferrer on 30-11-21.
 //
 
-import Foundation
-
-
 public struct AppButtonIcon {
     public enum Position {
         case right

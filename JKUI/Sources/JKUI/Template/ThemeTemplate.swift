@@ -62,7 +62,6 @@ public final class ThemeManager {
     }
 }
 
-
 //MARK - Tema de test
 
 final public class ThemeColor: ThemeColorTemplate {
@@ -74,7 +73,6 @@ final public class ThemeColor: ThemeColorTemplate {
 
     public init() {}
 }
-
 
 final public class ThemeFont: ThemeFontTemplate {
     public var titleL: Font = .system(size: 16)
