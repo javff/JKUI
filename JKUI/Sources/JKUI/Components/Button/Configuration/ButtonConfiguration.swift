@@ -5,7 +5,6 @@
 //  Created by Juan Andres Vasquez Ferrer on 01-12-21.
 //
 
-import Foundation
 import SwiftUI
 
 public struct ButtonConfiguration {

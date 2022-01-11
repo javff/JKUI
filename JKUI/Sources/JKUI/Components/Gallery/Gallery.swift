@@ -15,18 +15,17 @@ public struct Gallery: View {
         "\(currentStep + 1) / \(totalSteps)"
     }
     
-    @State var currentStep: Int = 0
-    
     private var totalSteps: Int {
         images.count
     }
     
+    @State var currentStep: Int = 0
+    
+    @State private var isFullScreenPresented = false
+    
     public init(images: [String]) {
         self.images = images
     }
-    
-    @State private var isFullScreenPresented = false
-
     
     public var body: some View {
         ZStack(alignment: .topLeading) {

@@ -28,7 +28,6 @@ struct FullScreenElementView: View {
         "\(currentStep + 1) / \(images.count)"
     }
     
-    
     init(images: [String], currentStep: Binding<Int>) {
         self.images = images
         self._currentStep = currentStep
@@ -52,6 +51,7 @@ struct FullScreenElementView: View {
                                 swipeGestureOnEnded(value)
                             })
                     )
+                
                 HStack {
                     //TODO: add close icon
                     Spacer()
@@ -76,7 +76,6 @@ struct FullScreenElementView: View {
         let opacitiyScale = opacityCandidate / 100
         offsetY = value.translation.height
         opacity = 1 - opacitiyScale
-        
     }
     
     private func swipeGestureOnEnded(_ value:  DragGesture.Value) {
