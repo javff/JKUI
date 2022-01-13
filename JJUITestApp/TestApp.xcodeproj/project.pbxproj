@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33D387CC278E25D800074B88 /* CarouselPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D387CB278E25D800074B88 /* CarouselPage.swift */; };
+		33D387CE278E25EF00074B88 /* CarouselRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D387CD278E25EF00074B88 /* CarouselRoute.swift */; };
 		8FE648B02788D95300B67BE7 /* JKUI in Frameworks */ = {isa = PBXBuildFile; productRef = 8FE648AF2788D95300B67BE7 /* JKUI */; };
 		E2B49097277BAA3300FD8AAD /* JJUITestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B49096277BAA3300FD8AAD /* JJUITestAppApp.swift */; };
 		E2B49099277BAA3300FD8AAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B49098277BAA3300FD8AAD /* ContentView.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33D387CB278E25D800074B88 /* CarouselPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselPage.swift; sourceTree = "<group>"; };
+		33D387CD278E25EF00074B88 /* CarouselRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselRoute.swift; sourceTree = "<group>"; };
 		E2B49093277BAA3300FD8AAD /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B49096277BAA3300FD8AAD /* JJUITestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJUITestAppApp.swift; sourceTree = "<group>"; };
 		E2B49098277BAA3300FD8AAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33D387CA278E25A400074B88 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				33D387CB278E25D800074B88 /* CarouselPage.swift */,
+				33D387CD278E25EF00074B88 /* CarouselRoute.swift */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
 		E2B4908A277BAA3300FD8AAD = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +118,7 @@
 		E2B490A7277BAAF200FD8AAD /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				33D387CA278E25A400074B88 /* Carousel */,
 				E2CBEA3327846B4D002435B3 /* Gallery */,
 				E2CBEA27277DCC4B002435B3 /* ProgressIndicator */,
 				E2CBEA26277DCC41002435B3 /* Buttons */,
@@ -225,6 +239,7 @@
 			files = (
 				E2CBEA25277DCC3D002435B3 /* ButtonRoute.swift in Sources */,
 				E2B490A9277BAB0000FD8AAD /* ButtonsPage.swift in Sources */,
+				33D387CC278E25D800074B88 /* CarouselPage.swift in Sources */,
 				E2B490AB277BAB2400FD8AAD /* ProgressIndicatorPage.swift in Sources */,
 				E2CBEA2E277DD131002435B3 /* RouterProtocols.swift in Sources */,
 				E2CBEA30277DD193002435B3 /* ProgressIndicatorRoute.swift in Sources */,
@@ -234,6 +249,7 @@
 				E2B49099277BAA3300FD8AAD /* ContentView.swift in Sources */,
 				E2B490B0277BADDD00FD8AAD /* Router.swift in Sources */,
 				E2CBEA3527846B5C002435B3 /* GalleryPage.swift in Sources */,
+				33D387CE278E25EF00074B88 /* CarouselRoute.swift in Sources */,
 				E2B49097277BAA3300FD8AAD /* JJUITestAppApp.swift in Sources */,
 				E2CBEA2C277DD0A5002435B3 /* NavigationRoute.swift in Sources */,
 			);
