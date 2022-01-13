@@ -11,7 +11,7 @@ import JKUI
 struct ContentView: View {
     
     let pages = Component.allCases
-    @State var buttonState = ButtonState.idle
+    var buttonState = ButtonState.idle
     @EnvironmentObject var navigator: Navigator
     
     var body: some View {
@@ -28,9 +28,10 @@ struct ContentView: View {
                             size: .fullWidth,
                             type: .primary
                         ),
-                        state: $buttonState) {
-                            self.navigator.navigate(to: component)
-                        }
+                        state: buttonState
+                    ) {
+                        navigator.navigate(to: component)
+                    }
                 }
             }
             .padding(EdgeInsets(top: 0, leading: 16, bottom: 0, trailing: 16))

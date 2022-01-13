@@ -34,7 +34,7 @@ struct ButtonsPage: View {
                         text: "Primary",
                         icon: nil,
                         configuration: config,
-                        state: $buttonState
+                        state: buttonState
                     ) { }
                     
                     Spacer()
@@ -43,7 +43,7 @@ struct ButtonsPage: View {
                         text: "Secondary",
                         icon: nil,
                         configuration: .init(size: .large, type: .secondary),
-                        state: $buttonState
+                        state: buttonState
                     ) {}
                     
                     Spacer()
@@ -52,7 +52,7 @@ struct ButtonsPage: View {
                         text: "Disabled",
                         icon: nil,
                         configuration: .init(size: .large, type: .secondary),
-                        state: $disableState
+                        state: disableState
                     ) {}
                     
                     Spacer()
@@ -63,14 +63,14 @@ struct ButtonsPage: View {
                         text: "Icon Left",
                         icon: AppButtonIcon(position: .left, name: "star.fill"),
                         configuration: .init(size: .large, type: .primary),
-                        state: $buttonState
+                        state: buttonState
                     ) { }
                     
                     MainButton(
                         text: "Icon Right",
                         icon: AppButtonIcon(position: .right, name: "star.fill"),
                         configuration: .init(size: .large, type: .secondary),
-                        state: $buttonState
+                        state: buttonState
                     ) { }
                 }
                 
@@ -80,21 +80,21 @@ struct ButtonsPage: View {
                         text: "Primary",
                         icon: nil,
                         configuration: .init(size: .medium, type: .primary),
-                        state: $buttonState
+                        state: buttonState
                     ) {}
                     
                     MainButton(
                         text: "Secondary",
                         icon: nil,
                         configuration: .init(size: .medium, type: .secondary),
-                        state: $buttonState
+                        state: buttonState
                     ) {}
                     
                     MainButton(
                         text: "Disabled",
                         icon: nil,
                         configuration: .init(size: .medium, type: .secondary),
-                        state: $disableState
+                        state: disableState
                     ) {}
                     
                     Spacer()
@@ -106,21 +106,21 @@ struct ButtonsPage: View {
                         text: "Primary",
                         icon: nil,
                         configuration: .init(size: .small, type: .primary),
-                        state: $buttonState
+                        state: buttonState
                     ) {}
                     
                     MainButton(
                         text: "Secondary",
                         icon: nil,
                         configuration: .init(size: .small, type: .secondary),
-                        state: $buttonState
+                        state: buttonState
                     ) {}
                     
                     MainButton(
                         text: "Disabled",
                         icon: nil,
                         configuration: .init(size: .small, type: .secondary),
-                        state: $disableState
+                        state: disableState
                     ) {}
                     
                     Spacer()
@@ -130,21 +130,21 @@ struct ButtonsPage: View {
                     text: "Primary",
                     icon: nil,
                     configuration: .init(size: .fullWidth, type: .primary),
-                    state: $buttonState
+                    state: buttonState
                 ) {}
                 
                 MainButton(
                     text: "Secondary",
                     icon: nil,
                     configuration: .init(size: .fullWidth, type: .secondary),
-                    state: $buttonState
+                    state: buttonState
                 ) {}
                 
                 MainButton(
                     text: "Disabled",
                     icon: nil,
                     configuration: .init(size: .fullWidth, type: .secondary),
-                    state: $disableState
+                    state: disableState
                 ) {}
                 
         }.frame(maxWidth: .infinity)
