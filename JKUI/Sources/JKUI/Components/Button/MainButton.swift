@@ -13,7 +13,7 @@ public struct MainButton: View {
     public let text: String
     public let icon: AppButtonIcon?
     public var configuration: ButtonConfiguration
-    @Binding public var state: ButtonState
+    public var state: ButtonState
     public var action: (() -> Void)
     
     /// Init
@@ -26,13 +26,13 @@ public struct MainButton: View {
     public init(text: String,
                 icon: AppButtonIcon? = nil,
                 configuration: ButtonConfiguration,
-                state: Binding<ButtonState>,
+                state: ButtonState,
                 action: @escaping (() -> Void)) {
         self.text = text
         self.action = action
         self.icon = icon
         self.configuration = configuration
-        self._state = state
+        self.state = state
     }
     
     public var body: some View {
