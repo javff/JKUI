@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B4C1DBC27B6C1C200684420 /* WallpaperRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C1DBB27B6C1C200684420 /* WallpaperRoute.swift */; };
+		6B4C1DBE27B6C1FF00684420 /* WallpaperPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C1DBD27B6C1FF00684420 /* WallpaperPage.swift */; };
 		8FE648B02788D95300B67BE7 /* JKUI in Frameworks */ = {isa = PBXBuildFile; productRef = 8FE648AF2788D95300B67BE7 /* JKUI */; };
 		E2B49097277BAA3300FD8AAD /* JJUITestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B49096277BAA3300FD8AAD /* JJUITestAppApp.swift */; };
 		E2B49099277BAA3300FD8AAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B49098277BAA3300FD8AAD /* ContentView.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B4C1DBB27B6C1C200684420 /* WallpaperRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperRoute.swift; sourceTree = "<group>"; };
+		6B4C1DBD27B6C1FF00684420 /* WallpaperPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperPage.swift; sourceTree = "<group>"; };
 		E2B49093277BAA3300FD8AAD /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B49096277BAA3300FD8AAD /* JJUITestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJUITestAppApp.swift; sourceTree = "<group>"; };
 		E2B49098277BAA3300FD8AAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B4C1DB827B6C19000684420 /* Wallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				6B4C1DBB27B6C1C200684420 /* WallpaperRoute.swift */,
+				6B4C1DBD27B6C1FF00684420 /* WallpaperPage.swift */,
+			);
+			path = Wallpaper;
+			sourceTree = "<group>";
+		};
 		E2B4908A277BAA3300FD8AAD = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +118,7 @@
 		E2B490A7277BAAF200FD8AAD /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				6B4C1DB827B6C19000684420 /* Wallpaper */,
 				E2CBEA3327846B4D002435B3 /* Gallery */,
 				E2CBEA27277DCC4B002435B3 /* ProgressIndicator */,
 				E2CBEA26277DCC41002435B3 /* Buttons */,
@@ -224,12 +238,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2CBEA25277DCC3D002435B3 /* ButtonRoute.swift in Sources */,
+				6B4C1DBC27B6C1C200684420 /* WallpaperRoute.swift in Sources */,
 				E2B490A9277BAB0000FD8AAD /* ButtonsPage.swift in Sources */,
 				E2B490AB277BAB2400FD8AAD /* ProgressIndicatorPage.swift in Sources */,
 				E2CBEA2E277DD131002435B3 /* RouterProtocols.swift in Sources */,
 				E2CBEA30277DD193002435B3 /* ProgressIndicatorRoute.swift in Sources */,
 				E2CBEA32277DEC7D002435B3 /* Navigator.swift in Sources */,
 				E2CBEA3727846B6C002435B3 /* GalleryRoute.swift in Sources */,
+				6B4C1DBE27B6C1FF00684420 /* WallpaperPage.swift in Sources */,
 				E2B490AE277BAD0C00FD8AAD /* Components.swift in Sources */,
 				E2B49099277BAA3300FD8AAD /* ContentView.swift in Sources */,
 				E2B490B0277BADDD00FD8AAD /* Router.swift in Sources */,
