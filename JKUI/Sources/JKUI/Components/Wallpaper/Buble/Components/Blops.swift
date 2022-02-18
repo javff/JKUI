@@ -12,8 +12,8 @@ public struct Blops: View {
         VStack {
             Spacer()
             Blop4()
-                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-                .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .foregroundColor(.blue)
+                .frame(width: 300, height: 300, alignment: .center)
             Spacer()
         }.padding()
         onAppear {

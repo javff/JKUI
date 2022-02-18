@@ -12,7 +12,7 @@ struct WallpaperPage: View {
     var body: some View {
         VStack {
             Text("Hi!!!")
-        }.background(BubleBackground().edgesIgnoringSafeArea(.all))
+        }.background(BubbleBackground().edgesIgnoringSafeArea(.all))
     }
 }
 

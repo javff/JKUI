@@ -1,5 +1,5 @@
 //
-//  BubleBackground.swift
+//  BubbleBackground.swift
 //  
 //
 //  Created by Josue German Hernandez Gonzalez on 11-02-22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public struct BubleBackground: View {
+public struct BubbleBackground: View {
     @State var shirking = false
     
     public init() {}
