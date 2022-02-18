@@ -14,7 +14,8 @@ class Router: RouterProtocol {
             .buttons: ButtonRoute(),
             .progressIndicator: ProgressIndicatorRoute(),
             .gallery: GalleryRoute(),
-            .wallpaper: WallpaperRoute()
+            .wallpaper: WallpaperRoute(),
+            .carousel: CarouselRouter()
         ]
     }
    

@@ -13,6 +13,7 @@ enum Component: String, CaseIterable {
     case progressIndicator
     case gallery
     case wallpaper
+    case carousel
     
     var name: String {
         switch self {
@@ -20,6 +21,7 @@ enum Component: String, CaseIterable {
         case .progressIndicator: return "Progress Indicator"
         case .gallery: return "Gallery"
         case .wallpaper: return "Wallpapers"
+        case .carousel: return "Carousel"
         }
     }
 }
